@@ -1,0 +1,299 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f1f5f9;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav .srchabar {
+    /* width: 200px; */
+}
+
+nav .srchabar input {
+    width: 250px;
+    height: 25px;
+    padding: 10px 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+nav .srchabar input::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+nav .rit {
+    display: flex;
+    align-items: center;
+}
+
+nav .rit .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+
+nav .rit .icon svg {
+    width: 25px;
+}
+
+nav .rit .prfl {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 20PX;
+
+}
+
+nav .rit .prfl img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projects {
+    background-color: #624bff;
+    height: 250px;
+    margin-bottom: 13%;
+}
+
+.projects .flxtt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 70px 0px 70px;
+}
+
+.projects .flxtt .ttl {
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 500;
+    color: white;
+}
+
+.projects .flxtt a {
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.projects .projectlist {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    bottom: -20px;
+}
+
+.projects .projectlist>* {
+    padding: 20px;
+}
+
+.projects .projectlist>.item {
+    width: calc(100% / 5);
+}
+
+.projects .projectlist .item .proBx {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.projects .projectlist .item .proBx .flxbx .flx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .projectlist .item .proBx .flxbx .flx h1 {
+    font-size: 25px;
+}
+
+.projects .projectlist .item .proBx .flxbx .flx .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #624bff;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.protables{
+    padding-bottom: 80px;
+}
+.protables .totalbx {
+    max-width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.protables .totalbx h1{
+    font-size: 30px;
+    border-bottom: 1px solid rgb(156, 155, 155);
+    padding: 20px;
+    margin-bottom: 0;
+}
+.protables .totalbx a{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.protables .totalbx table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.protables .totalbx table th{
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: left;
+}
+.protables .totalbx table tr{
+    border-bottom: 1px solid black;
+}
+.protables .totalbx table td{
+    padding: 20px;
+    height: 37px;
+}
+.protables .totalbx table td:first-child{
+    display: flex;
+    align-items: center;
+}
+.protables .totalbx table td .icon{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.protables .totalbx table td h4{
+    padding-left: 20px;
+}
+.protables .totalbx table td .prgl{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.protables .totalbx table td .prgl img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.tasks{
+    padding: 0px 0px 120px 0px;
+}
+.tasks .dflx{
+    display: flex;
+    max-width: 95%;
+    margin: auto;
+}
+.tasks .dflx .lft{
+    width: 35%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+.tasks .dflx .lft .imgBx{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+.tasks .dflx .lft .imgBx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tasks .dflx .flx{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.tasks .dflx .rit{
+    width: calc(100% - 35%);
+    padding-left: 30px;
+}
+.tasks .dflx .rit .totalbx{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.tasks .dflx .rit .totalbx h1{
+    padding: 20px 0px 10px 20px;
+    margin: 0;
+}
+.tasks .dflx .rit .totalbx table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tasks .dflx .totalbx table th{
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: left;
+}
+.tasks .dflx .totalbx table tr{
+    border-bottom: 1px solid black;
+}
+.tasks .dflx .totalbx table td{
+    padding: 25px;
+    height: 37px;
+}
+.tasks .dflx .totalbx table td:first-child{
+    display: flex;
+    align-items: center;
+}
+.tasks .dflx .totalbx table td:first-child .flex{
+    display: flex;
+    align-items: center;
+}
+.tasks .dflx .totalbx table td:first-child .flex .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tasks .dflx .totalbx table td:first-child .flex .icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.tasks .dflx .totalbx table td .flex .cnt{
+    padding-left: 20px;
+}
+.tasks .dflx .totalbx table td .flex .cnt h4{
+    margin: 0;
+}
+.tasks .dflx .totalbx table td .flex .cnt h6{
+    margin: 0;
+}
